@@ -19,14 +19,18 @@ body{
 
 section{
  background-color: #ffffff;
- height: 400px;
+ height: 600px;
 }
 
 article{
-    display: inline-flex; /* Toma solo el contenido*/
-    /* display: flex; */ /* Esto deja el espacio*/
-    flex-direction: row;
-    border: 2px solid black;
+    /*display: inline-flex;*/ /* Toma solo el contenido*/
+     display:flex;  /* Esto deja el espacio*/
+     /* flex-direction: row;
+     flex-wrap: wrap;     */
+
+     flex-flow: row  wrap-reverse;
+     border: 2px solid black;
+   
 }
 
 .servicio{

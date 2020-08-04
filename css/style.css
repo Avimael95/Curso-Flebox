@@ -27,26 +27,24 @@ article{
      display:flex;  /* Esto deja el espacio*/
      /* flex-direction: row;
      flex-wrap: wrap;     */
-
-     flex-flow: row  wrap-reverse;
+     flex-flow: row  wrap;
      border: 2px solid black;
    
 }
 
 .servicio{
+    padding: 10px;
+}
+
+.servicio:nth-child(1){
   background-color:#E53935;
-  padding: 10px;
-  
+    order: 3;
 }
 .servicio:nth-child(2){
     background-color: #8E24AA;
-    padding: 10px;
- 
-    
+    order: 1;    
 }
 .servicio:nth-child(3){
-    background-color:#3F51B5 ;
-    padding: 10px;
- 
-    
+    background-color:#3F51B5;
+    order: 2;
 }

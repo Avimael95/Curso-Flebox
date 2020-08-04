@@ -34,17 +34,23 @@ article{
 
 .servicio{
     padding: 10px;
+    flex-grow: 1;
+
 }
 
 .servicio:nth-child(1){
   background-color:#E53935;
     order: 3;
+    flex-grow: 2;
 }
 .servicio:nth-child(2){
     background-color: #8E24AA;
-    order: 1;    
+    order: -1; 
+    flex-grow: 3;   
 }
 .servicio:nth-child(3){
     background-color:#3F51B5;
     order: 2;
+    flex-grow: 4;
 }
+

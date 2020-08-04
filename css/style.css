@@ -40,17 +40,15 @@ article{
 
 .servicio:nth-child(1){
   background-color:#E53935;
-    order: 3;
     flex-grow: 2;
 }
 .servicio:nth-child(2){
     background-color: #8E24AA;
-    order: -1; 
-    flex-grow: 3;   
+    flex-grow: 0;
+    flex-shrink: 0;   
 }
 .servicio:nth-child(3){
     background-color:#3F51B5;
-    order: 2;
-    flex-grow: 4;
+    flex-grow: 2;
 }
 

@@ -4,6 +4,12 @@
   -webkit-box-sizing: border-box;
 }
 
+
+.container{
+    display: flex;
+}
+
+
 /* Colores generales */
 h1{
     text-align: center;
@@ -29,7 +35,11 @@ article{
      flex-wrap: wrap;     */
      flex-flow: row  wrap;
      border: 2px solid black;
-   
+     /* justify-content: space-around; */
+     /* justify-content: center;
+     justify-content: flex-end; */
+     /* justify-content: space-between; */
+     justify-content: space-evenly;
 }
 
 /* NOTA ==============
@@ -42,7 +52,7 @@ article{
 .servicio{
     padding: 10px;
     /* Flex usa tres paramentros: 1) flex-grow 2) flex-shrink flex-basis                     ; */
-    flex: 1 0 300px ;
+    /* flex: 1 0 300px ; */
 }
 
 .servicio:nth-child(1){

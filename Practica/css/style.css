@@ -1,0 +1,62 @@
+*{
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+/* =======Estilos generales============ */
+body{
+    background-color: #d42e10;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+/* ===========Estilos de las clases========= */
+
+.container{
+    background-color: #ffffff;
+    max-width: 1000px;
+    margin:0 auto;
+}
+.header-sitio {
+    padding:0 20px;
+    /* Flex aqui*/
+    display: flex;
+    flex-direction: column;
+}
+.header-sitio .navegacion {
+    background-color: #0ea4b8;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+}
+.navegacion .logo{
+    color: #ffffff;
+}
+
+.navegacion .menu-lista{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.navegacion .menu-lista li{
+    list-style: none;
+    margin-left: 10px;
+    padding: 10px;
+}
+.navegacion .menu-lista li:hover{
+    background-color: #d6da0e;
+}
+.navegacion .menu-lista li a{
+    text-decoration: none;
+    width: 200px;
+}
+
+.main{
+    display: flex;
+    justify-content: space-between;
+}

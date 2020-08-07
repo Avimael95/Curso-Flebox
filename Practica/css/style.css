@@ -11,7 +11,15 @@ body{
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
 }
-
+h1{
+    color: #ffffff;
+}
+h2{
+    color: #ffffff;
+}
+a{
+    color: #0306b4;
+}
 /* ===========Estilos de las clases========= */
 
 .container{
@@ -58,5 +66,45 @@ body{
 
 .main{
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 20px;
 }
+
+.container-flex{
+    display: flex;
+    flex-basis: 50%;
+}
+
+.container-flex .servicio:nth-child(1){
+    background-color: rgba(228, 13, 13, 0.924);
+    padding: 10px;
+    
+}
+
+.container-flex .servicio:nth-child(2){
+    background-color: rgb(105, 8, 161);
+    padding: 10px;
+  
+}
+
+.container-flex .servicio:nth-child(3){
+    background-color: rgb(49, 15, 199);
+    padding: 10px;
+
+}
+.menu{
+    background-color:#0ea4b8;
+   flex-basis: 50%;
+}
+.menu h1{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.menu .list{
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+
